@@ -1,0 +1,17 @@
+.choice {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+}
+
+.choice h2 {
+    padding-right: 20px;
+}
+
+.choiceContainer {
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 3px;
+    border-color: #1976d2;
+    width: fit-content;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "scouting-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "vite build",
+    "start": "vite --host"
+  },
+  "dependencies": {
+    "@suid/icons-material": "^0.5.11",
+    "@suid/material": "^0.11.1",
+    "solid-js": "^1.6.7"
+  },
+  "devDependencies": {
+    "@suid/vite-plugin": "^0.1.2",
+    "vite": "^4.0.4",
+    "vite-plugin-solid": "2.5.0"
+  }
+}

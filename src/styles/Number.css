@@ -1,0 +1,25 @@
+.numberContainer {
+    width: fit-content;
+    text-align: center;
+}
+
+.numberContainerFlex {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.number {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #1976d2;
+    border-radius: 8px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.number p {
+    text-align: center;
+    font-size: 25px;
+    font-style: bold;
+}
