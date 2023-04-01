@@ -36,8 +36,8 @@ const copyRawData = async () => {
     // gets data
     let data = getData();
 
-    // copies data to clipboard
-    await navigator.clipboard.writeText(JSON.stringify(data));
+    // copies formatted data to clipboard
+    await navigator.clipboard.writeText(`[${JSON.stringify(data)}]`);
 
     // tells user that data was copied
     alert("Data successfully copied!");
