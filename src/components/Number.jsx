@@ -41,7 +41,7 @@ const Number = (props) => {
 
     return (
         <div class="numberContainer">
-            <h2>{props.label}</h2>
+            <h3>{props.label}</h3>
             <div class="numberContainerFlex">
                 <div class="number">
                     <Button

@@ -5,7 +5,7 @@ import PreloadChoice from "../multipleChoice/PreloadChoice";
 const Prematch = () => {
     return (
         <div class="section">
-            <h2>Pre-Match</h2>
+            <h2 class="sectionTitle">Pre-Match</h2>
             <Table>
                 <TableRow>
                     <TableCell>

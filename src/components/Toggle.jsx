@@ -24,7 +24,7 @@ const Toggle = (props) => {
 
     return (
         <div class="toggle">
-            <h2>{props.label}</h2>
+            <h3>{props.label}</h3>
             <Checkbox
                 checked={getChecked()}
                 onChange={updateChecked}

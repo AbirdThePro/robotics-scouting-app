@@ -24,7 +24,7 @@ const AutoPosChoice = () => {
 
     return (
         <div class="choice">
-            <h2>Auto End Position:</h2>
+            <h3>Auto End Position:</h3>
             <div class="choiceContainer">
                 <Select
                     value={getAutopos()}

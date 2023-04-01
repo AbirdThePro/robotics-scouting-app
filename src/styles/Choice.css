@@ -2,9 +2,11 @@
     display: flex;
     width: fit-content;
     height: fit-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.choice h2 {
+.choice h3 {
     padding-right: 20px;
 }
 
@@ -14,4 +16,5 @@
     border-radius: 3px;
     border-color: #1976d2;
     width: fit-content;
+    height: fit-content;
 }

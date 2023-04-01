@@ -24,7 +24,7 @@ const FinalPosChoice = () => {
 
     return (
         <div class="choice">
-            <h2>Final Position:</h2>
+            <h3>Final Position:</h3>
             <div class="choiceContainer">
                 <Select
                     value={getFinalpos()}

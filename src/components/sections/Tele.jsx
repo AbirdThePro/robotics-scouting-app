@@ -4,7 +4,7 @@ import Number from "../Number";
 const Tele = () => {
     return (
         <div class="section">
-            <h2>Tele-operated</h2>
+            <h2 class="sectionTitle">Tele-operated</h2>
             <div class="table">
                 <Table>
                     <TableRow>

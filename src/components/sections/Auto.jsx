@@ -6,7 +6,7 @@ import AutoPosChoice from "../multipleChoice/AutoPosChoice";
 const Auto = () => {
     return (
         <div class="section">
-            <h2>Autonomous</h2>
+            <h2 class="sectionTitle">Autonomous</h2>
             <div class="table">
                 <Table>
                     <TableRow>

@@ -24,7 +24,7 @@ const PreloadChoice = () => {
 
     return (
         <div class="choice">
-            <h2>Preload:</h2>
+            <h3>Preload:</h3>
             <div class="choiceContainer">
                 <Select
                     value={getPreload()}

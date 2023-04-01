@@ -2,6 +2,14 @@
     text-align: center;
 }
 
+.sectionTitle {
+    padding-top: 50px;
+}
+
+td {
+    width: 90px;
+}
+
 body {
     display: flex;
     align-content: center;
