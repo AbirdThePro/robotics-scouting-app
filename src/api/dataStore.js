@@ -10,5 +10,19 @@ export const setAttribute = (key, value) => {
     window.localStorage.setItem(key, value);
 };
 
+// gets all values and defaults
+export const getData = () => {
+    // stores result
+    let result = { };
+
+    // iterates through all data keys
+    Object.keys(setters).forEach(key => {
+        // adds value to result with null safety (if data is not stored, use specified default for the field)
+        result[key] = getAttribute(key) || setters[key][1];
+    });
+
+    return result;
+};
+
 // setter functions for auto refresh
 export const setters = { };

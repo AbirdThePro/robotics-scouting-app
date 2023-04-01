@@ -1,0 +1,9 @@
+.dataDisplay {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.dataDisplay p {
+    word-wrap: break-word;
+}

@@ -14,6 +14,9 @@ const clearChoices = () => {
         // calls setter with default value
         setter[0](setter[1]);
     });
+
+    // gets rid of QR code
+    document.querySelector("#qrcode").innerHTML = "";
 };
 
 const ClearButton = () => {

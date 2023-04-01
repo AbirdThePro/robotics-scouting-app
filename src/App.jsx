@@ -3,8 +3,8 @@ import Auto from "./components/sections/Auto";
 import Tele from "./components/sections/Tele";
 import Prematch from "./components/sections/Prematch";
 import Endgame from "./components/sections/Endgame";
+import DataDisplay from "./components/DataDisplay";
 import { Button } from "@suid/material";
-import sendMessage from "./api/dataSend";
 
 const App = () => {
 	return (
@@ -13,7 +13,7 @@ const App = () => {
 			<Auto />
 			<Tele />
 			<Endgame />
-			<Button onClick={sendMessage}>Submit</Button>
+			<DataDisplay />
 			<ClearButton />
 		</main>
 	);

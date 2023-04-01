@@ -4,3 +4,9 @@
     border-radius: 3px;
     border-color: #1976d2;
 }
+
+/* emergency interfacing with Material UI's styles */
+.MuiFormControl-root {
+    width: 100%;
+    display: flex !important;
+}

@@ -9,6 +9,7 @@
   "dependencies": {
     "@suid/icons-material": "^0.5.11",
     "@suid/material": "^0.11.1",
+    "qrcode-generator-es6": "^1.1.4",
     "solid-js": "^1.6.7"
   },
   "devDependencies": {

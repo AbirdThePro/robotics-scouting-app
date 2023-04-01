@@ -7,7 +7,7 @@ const Endgame = () => {
         <div class="section">
             <h2>Endgame</h2>
             <FinalPosChoice />
-            <Text key="notes" type="text" max="500" label="Notes" />
+            <Text key="notes" type="text" max="100" label="Notes" />
             <Toggle key="malfunction" label="Malfunction" />
         </div>
     );
